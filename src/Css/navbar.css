@@ -1,0 +1,36 @@
+
+.nav-container{
+     padding: 10px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    margin-right: 5rem;
+}
+.link:hover{
+    color: rgb(101, 216, 101);
+}
+.links h6{
+    font-size: 16px;
+    font-weight: Bold;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+.logo img{
+    width: 140px;
+    cursor: pointer; 
+    margin-left: 5rem;
+}
+.name{
+    color: green;
+    text-decoration: none;
+    font-family: var(--font-family);
+}
